@@ -14,7 +14,6 @@ const IAT = {
 };
 
 minnoJS = function(container, url) {
-  // Ejemplo simple: solo muestra mensajes sin lógica compleja
   container.innerHTML = '<p>Este es un experimento básico de MinnoJS.</p>';
   setTimeout(() => {
     minnoJS.onEnd();
@@ -25,4 +24,5 @@ minnoJS.onEnd = function() {};
 minnoJS.logger = function(value) {
   console.log('Datos registrados:', value);
 };
+
 
